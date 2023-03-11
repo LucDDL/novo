@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Miniblog Extension",
+  "version": "1.0",
+  "description": "Uma extensão para criar e visualizar posts em um miniblog",
+  "browser_action": {
+    "default_title": "Miniblog Extension",
+    "default_popup": "login.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
+
+  
